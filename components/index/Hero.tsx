@@ -52,7 +52,7 @@ export const Hero: FC = () => (
         maxW={['450px', '500px', '500px', null]}
       >
         <Heading
-          color="white"
+          color="lightBlue"
           as="h1"
           fontSize={['60px', '4xl']}
           lineHeight={['70px', '85px']}
