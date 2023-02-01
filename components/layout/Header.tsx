@@ -18,7 +18,7 @@ export const Header: FC = () => (
           color="brand.whiteSecondary"
           display="inline"
         >
-          Luis
+          Luis 🔥
         </Text>
       </InternalLink>
     </HStack>

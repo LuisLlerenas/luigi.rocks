@@ -41,6 +41,7 @@ export const Hero: FC = () => (
         position="relative"
         width={['150px', '200px', '200px', '250px']}
         minWidth={['150px', '200px', '200px', '250px']}
+        marginTop="50"
       >
         <Image priority alt="Portrait of Luis" src={Luis} placeholder="blur" />
       </Box>
