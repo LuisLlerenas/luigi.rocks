@@ -10,7 +10,7 @@ import { SocialIcons } from 'components/SocialIcons';
 import { Span } from 'components/Span';
 
 // images
-import Luis from '/public/images/luis.webp';
+import Luis from '/public/images/Luigi.png';
 
 import { HEADER_HEIGHT } from 'components/layout/Header';
 import { FOOTER_HEIGHT } from 'components/layout/Footer';
@@ -52,7 +52,7 @@ export const Hero: FC = () => (
         maxW={['450px', '500px', '500px', null]}
       >
         <Heading
-          color="lightBlue"
+          color="white"
           as="h1"
           fontSize={['60px', '4xl']}
           lineHeight={['70px', '85px']}
@@ -60,7 +60,7 @@ export const Hero: FC = () => (
           Luis Llerenas
         </Heading>
         <HeroText>
-          software engineer student looking for{' '}
+          Software engineer student looking for{' '}
           <Span color="brand.blue">internships</Span>
         </HeroText>
         <SocialIcons />

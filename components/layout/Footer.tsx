@@ -18,7 +18,7 @@ export const Footer: FC = () => (
     position="relative"
   >
     <Text flex="1" fontSize="sm" color="brand.grey">
-      Made with <HiddenFromScreenReader>🔥</HiddenFromScreenReader>
+      Made with coffee and creativity <HiddenFromScreenReader>🚀</HiddenFromScreenReader>
       <VisuallyHidden>Passion</VisuallyHidden>
     </Text>
     <SocialIcons />
