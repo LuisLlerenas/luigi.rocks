@@ -6,7 +6,7 @@ import { Text } from '@chakra-ui/react';
 import { Section } from 'components/layout/Section';
 import { InternalLink } from 'components/InternalLink';
 
-export const HEADER_HEIGHT = '70px';
+export const HEADER_HEIGHT = '35px';
 
 export const Header: FC = () => (
   <Section as="header" h={HEADER_HEIGHT} mt="0">

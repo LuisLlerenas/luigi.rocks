@@ -56,7 +56,6 @@ export const Hero: FC = () => (
         position="relative"
         width={['150px', '200px', '200px', '250px']}
         minWidth={['150px', '200px', '200px', '250px']}
-        marginTop="15px"
       >
         <Image priority alt="Portrait of Luis" src={Luis} placeholder="blur" />
         <HeroText 
@@ -66,7 +65,7 @@ export const Hero: FC = () => (
         as={motion.div}
         animation={animation}
        textAlign={"center"}
-        marginTop={"15px"}>
+        marginTop={"5px"}>
           More To Come
           </HeroText>
         <HeroText textAlign={"center"}>👷🏽‍♂️ 🛠️ 🚧</HeroText>
