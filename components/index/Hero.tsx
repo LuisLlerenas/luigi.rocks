@@ -96,7 +96,7 @@ export const Hero: FC = () => (
           Luis Llerenas
         </Heading>
         <HeroText>
-          Unleashing creativity and passion for web development as a student at ASU. Ready to make an impact with my skills in front-end software engineering and for challenging{' '}
+          Unleashing creativity and passion for web development as a SE student at ASU. Ready to make an impact with my skills in front-end software engineering and for challenging{' '}
           <Span color="brand.blue">internships.</Span>
         </HeroText>
         <SocialIcons />
