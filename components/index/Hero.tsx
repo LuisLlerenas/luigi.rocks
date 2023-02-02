@@ -41,7 +41,7 @@ export const Hero: FC = () => (
     position="relative"
     mt="0"
     aria-label="Hero"
-    h={`calc(100vh - ${HEADER_HEIGHT} - ${FOOTER_HEIGHT} - 30px)`}
+    h={`calc(100vh - ${HEADER_HEIGHT} - ${FOOTER_HEIGHT})`}
   >
     <Stack
       align="center"
