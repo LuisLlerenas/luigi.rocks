@@ -100,7 +100,6 @@ export const Hero: FC = () => (
         Ready for challenging <Span color="brand.blue">internships</Span> and to make an impact with my skills in 
         front-end software engineering. <br />
         Let's build something amazing together.{' '}
-          
         </HeroText>
         <SocialIcons />
       </VStack>
