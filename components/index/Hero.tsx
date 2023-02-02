@@ -22,13 +22,13 @@ const HERO_MIN_HEIGHT = 550;
 
 const animationKeyframes = keyframes`
   0% { transform: scale(1) rotate(0);}
-  25% { transform: scale(2) rotate(0);}
+  25% { transform: scale(2) rotate(180deg);}
   50% { transform: scale(2) rotate(360deg);}
-  75% { transform: scale(1) rotate(650deg);}
-  100% { transform: scale(1) rotate(0);}
+  75% { transform: scale(1) rotate(540deg);}
+  100% { transform: scale(1) rotate(720deg));}
 `;
 
-const animation = `${animationKeyframes} 4s ease-in-out 1`;
+const animation = `${animationKeyframes} 6s ease-in-out 1`;
 
 
 
