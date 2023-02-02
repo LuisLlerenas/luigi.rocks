@@ -96,10 +96,8 @@ export const Hero: FC = () => (
           Luis Llerenas
         </Heading>
         <HeroText>
-        Unleashing creativity and passion for web development as a SE student at ASU. <br />
-        Ready for challenging <Span color="brand.blue">internships</Span> and to make an impact with my skills in 
-        front-end software engineering. <br />
-        Let's build something amazing together.{' '}
+          Software engineer student looking for{' '}
+          <Span color="brand.blue">internships</Span>
         </HeroText>
         <SocialIcons />
       </VStack>
