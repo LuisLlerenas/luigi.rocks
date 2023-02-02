@@ -63,11 +63,9 @@ export const Hero: FC = () => (
         bgGradient='linear(to-l, #7928CA, #FF0080)'
         bgClip='text'
         fontWeight='extrabold'
-
         as={motion.div}
         animation={animation}
-
-        textAlign={"center"}
+       textAlign={"center"}
         marginTop={"15px"}>
           More To Come
           </HeroText>
@@ -85,6 +83,15 @@ export const Hero: FC = () => (
           as="h1"
           fontSize={['60px', '4xl']}
           lineHeight={['70px', '85px']}
+          bgGradient='linear(-225deg,
+            #231557 0%,
+            #44107a 29%,
+            #ff1361 67%,
+            #fff800 100%)'
+          backgroundSize={['200%', 'auto']}
+          bgClip='text'
+          fontWeight='extrabold'
+
         >
           Luis Llerenas
         </Heading>
