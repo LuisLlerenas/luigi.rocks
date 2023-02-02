@@ -41,7 +41,7 @@ export const SocialIcons: FC<SocialIcons> = ({ iconSizes = 5 }) => (
             color="brand.greyDarker"
             name={iconName}
             transition="0.1s ease"
-            _hover={{ color: 'brand.grey' }}
+            _hover={{ color: 'brand.blue' }}
           />
         </ExternalLink>
       </Box>
