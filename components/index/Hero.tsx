@@ -41,7 +41,7 @@ export const Hero: FC = () => (
     position="relative"
     mt="0"
     aria-label="Hero"
-    h={`calc(100vh - ${HEADER_HEIGHT} - ${FOOTER_HEIGHT})`}
+    h={`calc(100vh - ${HEADER_HEIGHT} - ${FOOTER_HEIGHT} - 30px)`}
   >
     <Stack
       align="center"
@@ -56,7 +56,7 @@ export const Hero: FC = () => (
         position="relative"
         width={['150px', '200px', '200px', '250px']}
         minWidth={['150px', '200px', '200px', '250px']}
-        marginTop="15"
+        marginTop="15px"
       >
         <Image priority alt="Portrait of Luis" src={Luis} placeholder="blur" />
         <HeroText 
@@ -68,7 +68,7 @@ export const Hero: FC = () => (
         animation={animation}
 
         textAlign={"center"}
-        marginTop={"10"}>
+        marginTop={"15px"}>
           More To Come
           </HeroText>
         <HeroText textAlign={"center"}>👷🏽‍♂️ 🛠️ 🚧</HeroText>
