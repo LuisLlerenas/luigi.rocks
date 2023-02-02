@@ -6,7 +6,7 @@ import { Hero } from 'components/index/Hero';
 
 const Home: NextPage = () => (
   <Container>
-    <Hero />
+    <Hero />  
   </Container>
 );
 

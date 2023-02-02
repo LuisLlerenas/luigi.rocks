@@ -1,5 +1,8 @@
 import { FC } from 'react';
 
+import { keyframes } from '@chakra-ui/react';
+import { motion } from 'framer-motion'
+
 // components
 import Image from 'next/image';
 import { Box, Heading, TextProps, VStack, Stack } from '@chakra-ui/layout';
@@ -16,6 +19,18 @@ import { HEADER_HEIGHT } from 'components/layout/Header';
 import { FOOTER_HEIGHT } from 'components/layout/Footer';
 
 const HERO_MIN_HEIGHT = 550;
+
+const animationKeyframes = keyframes`
+  0% { transform: scale(1) rotate(0);}
+  25% { transform: scale(2) rotate(0);}
+  50% { transform: scale(2) rotate(360deg);}
+  75% { transform: scale(1) rotate(650deg);}
+  100% { transform: scale(1) rotate(0);}
+`;
+
+const animation = `${animationKeyframes} 4s ease-in-out 1`;
+
+
 
 export const Hero: FC = () => (
   <Section
@@ -41,9 +56,22 @@ export const Hero: FC = () => (
         position="relative"
         width={['150px', '200px', '200px', '250px']}
         minWidth={['150px', '200px', '200px', '250px']}
-        marginTop="50"
+        marginTop="25"
       >
         <Image priority alt="Portrait of Luis" src={Luis} placeholder="blur" />
+        <HeroText 
+        bgGradient='linear(to-l, #7928CA, #FF0080)'
+        bgClip='text'
+        fontWeight='extrabold'
+
+        as={motion.div}
+        animation={animation}
+
+        textAlign={"center"}
+        marginTop={"20"}>
+          More To Come
+          </HeroText>
+        <HeroText textAlign={"center"}>👷🏽‍♂️ 🛠️ 🚧</HeroText>
       </Box>
 
       {/* hero text */}
