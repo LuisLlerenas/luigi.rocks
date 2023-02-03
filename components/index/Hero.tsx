@@ -22,13 +22,20 @@ const HERO_MIN_HEIGHT = 550;
 
 const animationKeyframes = keyframes`
   0% { transform: translateX(0);}
-  25% { transform: translateX(50px);}
-  50% { transform: translateX(0px);}
-  75% { transform: translateX(-50px);}
-
+  9% { transform: translateX(150px)}
+  18% { transform: rotate(90deg) translate(0px, -150px);}
+  27% { transform: rotate(90deg) translate(-300px, -150px);}
+  36% { transform: rotate(90deg) translate(0px, -150px);}
+  45% { transform: rotate(180deg) translate(-150px, 0px);}
+  54% { transform: rotate(180deg) translate(150px, 0px);}
+  63% { transform: rotate(270deg) translate(0px, -150px);}
+  72% { transform: rotate(270deg) translate(300px, -150px);}
+  81% { transform: rotate(270deg) translate(0px, -150px);}
+  90% { transform: rotate(360deg) translate(-150px, 0px)}
+  100% { transform: rotate(360deg);}
 `;
 
-const animation = `${animationKeyframes} 4s linear infinite`;
+const animation = `${animationKeyframes} 15s linear infinite`;
 
 
 
