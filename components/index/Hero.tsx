@@ -21,14 +21,14 @@ import { FOOTER_HEIGHT } from 'components/layout/Footer';
 const HERO_MIN_HEIGHT = 550;
 
 const animationKeyframes = keyframes`
-  0% { transform: scale(1) rotate(0);}
-  25% { transform: scale(2) rotate(180deg);}
-  50% { transform: scale(2) rotate(360deg);}
-  75% { transform: scale(1) rotate(540deg);}
-  100% { transform: scale(1) rotate(720deg));}
+  0% { transform: translateX(0);}
+  25% { transform: translateX(50px);}
+  50% { transform: translateX(0px);}
+  75% { transform: translateX(-50px);}
+
 `;
 
-const animation = `${animationKeyframes} 6s ease-in-out 1`;
+const animation = `${animationKeyframes} 4s linear infinite`;
 
 
 
